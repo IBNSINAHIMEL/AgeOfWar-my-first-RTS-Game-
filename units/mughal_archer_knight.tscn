@@ -1,0 +1,179 @@
+[gd_scene format=3 uid="uid://c0d5igmeuk21a"]
+
+[ext_resource type="Script" uid="uid://dgw2paqbpnk3o" path="res://scripts/units/mughal_archer_knight.gd" id="1_yjamv"]
+[ext_resource type="Texture2D" uid="uid://cbf62tydhbqwd" path="res://mughal empire/archer knight/attack left/1_character.png" id="2_fm0br"]
+[ext_resource type="Texture2D" uid="uid://clif8n1x175j2" path="res://mughal empire/archer knight/idle/1_character.png" id="2_p6kui"]
+[ext_resource type="Texture2D" uid="uid://b6xctv2fd1mvl" path="res://mughal empire/archer knight/attack right/1_character.png" id="2_telx6"]
+[ext_resource type="Texture2D" uid="uid://b6y1m87pxjnbt" path="res://mughal empire/archer knight/attack left/2_character.png" id="3_d0e8o"]
+[ext_resource type="Texture2D" uid="uid://fi3au1dins07" path="res://mughal empire/archer knight/idle/2_character.png" id="3_l3ylw"]
+[ext_resource type="Texture2D" uid="uid://cqxl2x4pmh7wd" path="res://mughal empire/archer knight/attack right/2_character.png" id="3_q4cv2"]
+[ext_resource type="Texture2D" uid="uid://b0ed4xukdt1eb" path="res://mughal empire/archer knight/attack left/3_character.png" id="4_4rthg"]
+[ext_resource type="Texture2D" uid="uid://cc4oxy1mkwh5l" path="res://mughal empire/archer knight/idle/3_character.png" id="4_jnefr"]
+[ext_resource type="Texture2D" uid="uid://xjeqlx4n5ig1" path="res://mughal empire/archer knight/attack right/3_character.png" id="4_k4tjs"]
+[ext_resource type="Texture2D" uid="uid://dh08vbviutq4k" path="res://mughal empire/archer knight/attack right/4_character.png" id="5_1iagg"]
+[ext_resource type="Texture2D" uid="uid://bl7lub4ujhe7g" path="res://mughal empire/archer knight/attack left/4_character.png" id="5_gktgn"]
+[ext_resource type="Texture2D" uid="uid://pk6dqbtpkpgc" path="res://mughal empire/archer knight/idle/4_character.png" id="5_x6ou4"]
+[ext_resource type="Texture2D" uid="uid://dbrhti5n0ls4r" path="res://mughal empire/archer knight/attack right/5_character.png" id="6_btx1j"]
+[ext_resource type="Texture2D" uid="uid://sombrmlaiahj" path="res://mughal empire/archer knight/run/1_character.png" id="6_jihov"]
+[ext_resource type="Texture2D" uid="uid://dnkbc1b0vhras" path="res://mughal empire/archer knight/attack left/5_character.png" id="6_uyvnk"]
+[ext_resource type="Texture2D" uid="uid://4uiiijplgyb3" path="res://mughal empire/archer knight/run/2_character.png" id="7_c38o6"]
+[ext_resource type="Texture2D" uid="uid://3ufj35u3hr6n" path="res://mughal empire/archer knight/attack right/6_character.png" id="7_t5rj6"]
+[ext_resource type="Texture2D" uid="uid://cmdebfdjuy8ya" path="res://mughal empire/archer knight/attack left/6_character.png" id="7_wc4g6"]
+[ext_resource type="Texture2D" uid="uid://cabrx4rlpgrku" path="res://mughal empire/archer knight/run/3_character.png" id="8_telx6"]
+[ext_resource type="Texture2D" uid="uid://73je6i31urdc" path="res://mughal empire/archer knight/run/4_character.png" id="9_q4cv2"]
+[ext_resource type="Texture2D" uid="uid://d3ikvxxthdeqy" path="res://mughal empire/archer knight/run/5_character.png" id="10_k4tjs"]
+[ext_resource type="Texture2D" uid="uid://bmdwbw6ie5ssx" path="res://mughal empire/archer knight/run/6_character.png" id="11_1iagg"]
+[ext_resource type="Texture2D" uid="uid://bnnm4wlud6fke" path="res://mughal empire/knight/die/1_character.png" id="14_2vucr"]
+[ext_resource type="Texture2D" uid="uid://da80qwey5yy1e" path="res://mughal empire/knight/die/2_character.png" id="15_cjdf2"]
+[ext_resource type="Texture2D" uid="uid://cpewvevfx0bl1" path="res://mughal empire/knight/die/3_character.png" id="16_hxpce"]
+[ext_resource type="Texture2D" uid="uid://d2xsfkgxl0jrm" path="res://mughal empire/knight/hurt/1_character.png" id="17_r4ng4"]
+[ext_resource type="Texture2D" uid="uid://25grtpoq71v1" path="res://mughal empire/knight/hurt/2_character.png" id="18_31jcj"]
+[ext_resource type="Texture2D" uid="uid://dsys86weo43ff" path="res://mughal empire/knight/hurt/3_character.png" id="19_fu3b7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_btx1j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fm0br")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_d0e8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4rthg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gktgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_uyvnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wc4g6")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_telx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_q4cv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_k4tjs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1iagg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_btx1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_t5rj6")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_2vucr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_cjdf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_hxpce")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_r4ng4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_31jcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_fu3b7")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_p6kui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_l3ylw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jnefr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_x6ou4")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_jihov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_c38o6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_telx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_q4cv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_k4tjs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1iagg")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fm0br"]
+size = Vector2(53, 65)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fm0br"]
+radius = 467.8154
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=872827370]
+script = ExtResource("1_yjamv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1070746116]
+sprite_frames = SubResource("SpriteFrames_btx1j")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=970192312]
+position = Vector2(-1.5, 0.5)
+shape = SubResource("RectangleShape2D_fm0br")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=2087788864]
+position = Vector2(-1.5, 0.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=1299281139]
+position = Vector2(-1, -0.5)
+shape = SubResource("CircleShape2D_fm0br")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=1190547990]
+offset_left = -26.0
+offset_top = -41.0
+offset_right = 27.0
+offset_bottom = -33.0
+value = 100.0

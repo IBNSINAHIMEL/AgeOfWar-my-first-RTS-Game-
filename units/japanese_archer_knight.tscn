@@ -1,0 +1,174 @@
+[gd_scene format=3 uid="uid://dpc08ybhsoyvw"]
+
+[ext_resource type="Script" uid="uid://c2bnfi5627f20" path="res://scripts/units/japanese_archer_knight.gd" id="1_g5ap1"]
+[ext_resource type="Texture2D" uid="uid://bftiy5r6rad7v" path="res://japanese empire/archer knight/idle/1_character.png" id="2_blnwk"]
+[ext_resource type="Texture2D" uid="uid://dhl4psyedn4r5" path="res://japanese empire/archer knight/attack left/1_-_Copy_character.png" id="2_s24ej"]
+[ext_resource type="Texture2D" uid="uid://bu8ob54yt3psg" path="res://japanese empire/archer knight/idle/2_character.png" id="3_dc1oh"]
+[ext_resource type="Texture2D" uid="uid://cjbmjugb2ytjk" path="res://japanese empire/archer knight/attack left/1_character.png" id="3_i6w0n"]
+[ext_resource type="Texture2D" uid="uid://dexwm6dcrsxq5" path="res://japanese empire/archer knight/attack left/2_character.png" id="4_d7l5d"]
+[ext_resource type="Texture2D" uid="uid://dwmtbebom6y2o" path="res://japanese empire/archer knight/idle/3_character.png" id="4_twdhg"]
+[ext_resource type="Texture2D" uid="uid://y8ld0pjqs1bj" path="res://japanese empire/archer knight/idle/4_character.png" id="5_4noi8"]
+[ext_resource type="Texture2D" uid="uid://d07kjma3ndew3" path="res://japanese empire/archer knight/attack left/3_character.png" id="5_unhw1"]
+[ext_resource type="Texture2D" uid="uid://b0ljds32evyst" path="res://japanese empire/archer knight/walk/1_character.png" id="6_740iu"]
+[ext_resource type="Texture2D" uid="uid://bjgfv2x5wb5i" path="res://japanese empire/archer knight/attack left/4_character.png" id="6_hr8px"]
+[ext_resource type="Texture2D" uid="uid://dwfuvl425y1ac" path="res://japanese empire/archer knight/walk/2_character.png" id="7_12lxh"]
+[ext_resource type="Texture2D" uid="uid://dwt7nl418i685" path="res://japanese empire/archer knight/attackn right/1_character.png" id="7_c5frn"]
+[ext_resource type="Texture2D" uid="uid://doyhudf5175mb" path="res://japanese empire/archer knight/walk/3_character.png" id="8_qt08u"]
+[ext_resource type="Texture2D" uid="uid://bk7msh7xthlgf" path="res://japanese empire/archer knight/attackn right/2_character.png" id="8_ywx3j"]
+[ext_resource type="Texture2D" uid="uid://unof4egb8air" path="res://japanese empire/archer knight/attackn right/3_character.png" id="9_26uvy"]
+[ext_resource type="Texture2D" uid="uid://dliygcso2kley" path="res://japanese empire/archer knight/walk/4_character.png" id="9_syosy"]
+[ext_resource type="Texture2D" uid="uid://c7wxkten1bwj5" path="res://japanese empire/archer knight/attackn right/4_character.png" id="10_ilu3y"]
+[ext_resource type="Texture2D" uid="uid://crwkw0wb7d824" path="res://japanese empire/archer knight/walk/5_character.png" id="10_jxkyy"]
+[ext_resource type="Texture2D" uid="uid://c4tiqsl8vmjf3" path="res://japanese empire/archer knight/walk/6_character.png" id="11_kb4wj"]
+[ext_resource type="Texture2D" uid="uid://q2yqrd3x7geb" path="res://japanese empire/archer knight/attackn right/5_character.png" id="11_max4j"]
+[ext_resource type="Texture2D" uid="uid://cldb37lfta02r" path="res://japanese empire/archer knight/attackn right/6_character.png" id="12_dcmvc"]
+[ext_resource type="Texture2D" uid="uid://c5cymru2b3p3y" path="res://japanese empire/knight/die/1_character.png" id="13_tq8tk"]
+[ext_resource type="Texture2D" uid="uid://cg0px0pege43n" path="res://japanese empire/knight/die/2_character.png" id="14_ebvmn"]
+[ext_resource type="Texture2D" uid="uid://dgrxdtor6x3ad" path="res://japanese empire/knight/die/3_character.png" id="15_xwdlj"]
+[ext_resource type="Texture2D" uid="uid://0lhvuh84vt3w" path="res://japanese empire/knight/hurt/1_character.png" id="16_ro6ig"]
+[ext_resource type="Texture2D" uid="uid://3ktadt851jxh" path="res://japanese empire/knight/hurt/2_character.png" id="17_qkbq6"]
+[ext_resource type="Texture2D" uid="uid://i7glydmvs145" path="res://japanese empire/knight/hurt/3_character.png" id="18_vjh3n"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wfd8f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_s24ej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_i6w0n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_d7l5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_unhw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hr8px")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_c5frn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ywx3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_26uvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ilu3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_max4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_dcmvc")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_tq8tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ebvmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_xwdlj")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_ro6ig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qkbq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_vjh3n")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_blnwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dc1oh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_twdhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4noi8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_740iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_12lxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_qt08u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_syosy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_jxkyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_kb4wj")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s24ej"]
+size = Vector2(48, 61)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d7l5d"]
+radius = 309.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1121336338]
+collision_mask = 2
+script = ExtResource("1_g5ap1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=847174962]
+sprite_frames = SubResource("SpriteFrames_wfd8f")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=485284805]
+position = Vector2(-1, 2.5)
+shape = SubResource("RectangleShape2D_s24ej")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=2054584692]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=2141953011]
+shape = SubResource("CircleShape2D_d7l5d")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=569027433]
+offset_left = -22.0
+offset_top = -38.0
+offset_right = 23.0
+offset_bottom = -31.0
+value = 100.0

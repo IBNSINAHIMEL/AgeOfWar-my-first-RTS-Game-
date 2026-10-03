@@ -1,0 +1,291 @@
+[gd_scene format=3 uid="uid://bxs8a4qyouti2"]
+
+[ext_resource type="Script" uid="uid://gnpmo06oi63v" path="res://scenes/units/japanese_villager.gd" id="1_1qhek"]
+[ext_resource type="Texture2D" uid="uid://bfwq7j12mvuvp" path="res://japanese empire/japanese villager/female/idle/1.png" id="1_2gtab"]
+[ext_resource type="Texture2D" uid="uid://crlsu654nhnp8" path="res://japanese empire/japanese villager/female/food/1_character.png" id="2_a3bhu"]
+[ext_resource type="Texture2D" uid="uid://rcfuelel48np" path="res://japanese empire/japanese villager/female/idle/fidle2.png" id="2_xx7mu"]
+[ext_resource type="Texture2D" uid="uid://bjw2waaivquk8" path="res://japanese empire/japanese villager/female/food/2_character.png" id="3_6lkt6"]
+[ext_resource type="Texture2D" uid="uid://dvwr2gxcfmlvs" path="res://japanese empire/japanese villager/female/idle/fidle3.png" id="3_g3g5s"]
+[ext_resource type="Texture2D" uid="uid://cjg8okyyxyj3t" path="res://japanese empire/japanese villager/female/walk/0j_64x64.png" id="4_kwbxd"]
+[ext_resource type="Texture2D" uid="uid://hd1cfueaxg7s" path="res://japanese empire/japanese villager/female/food/3_character.png" id="4_tdxnh"]
+[ext_resource type="Texture2D" uid="uid://cch2rl6muvr83" path="res://japanese empire/japanese villager/female/walk/1j_64x64.png" id="5_1qhek"]
+[ext_resource type="Texture2D" uid="uid://b4uhfj2pu0bcg" path="res://japanese empire/japanese villager/female/food/4_character.png" id="5_gwwf4"]
+[ext_resource type="Texture2D" uid="uid://ciwvcjs04fa8h" path="res://japanese empire/japanese villager/female/food/5_character.png" id="6_pal6r"]
+[ext_resource type="Texture2D" uid="uid://dnu4whm4m8kiv" path="res://japanese empire/japanese villager/female/walk/2j_64x64.png" id="6_uppnh"]
+[ext_resource type="Texture2D" uid="uid://bkcy2kf65kbod" path="res://japanese empire/japanese villager/female/walk/3j_64x64.png" id="7_3dbx5"]
+[ext_resource type="Texture2D" uid="uid://bjofq6ydgwabn" path="res://japanese empire/japanese villager/female/food/6_character.png" id="7_tyxxa"]
+[ext_resource type="Texture2D" uid="uid://cyd22s4e2k7ry" path="res://japanese empire/japanese villager/female/walk/4j_64x64.png" id="8_0ms43"]
+[ext_resource type="Texture2D" uid="uid://dgpapv62fqasm" path="res://japanese empire/japanese villager/female/food/7_character.png" id="8_ldmcd"]
+[ext_resource type="Texture2D" uid="uid://20eheqr4mtrc" path="res://japanese empire/japanese villager/female/food/8_character.png" id="9_1l7c0"]
+[ext_resource type="Texture2D" uid="uid://ry45tv4wgfoe" path="res://japanese empire/japanese villager/female/walk/5j_64x64.png" id="9_thpdh"]
+[ext_resource type="Texture2D" uid="uid://dvbvqpa6oa35s" path="res://japanese empire/japanese villager/female/walk/6j_64x64.png" id="10_s33bv"]
+[ext_resource type="Texture2D" uid="uid://ysg4iq5d2tot" path="res://japanese empire/japanese villager/female/walk/7j_64x64.png" id="11_as1eb"]
+[ext_resource type="Texture2D" uid="uid://bd2mvi7h4fwp8" path="res://japanese empire/japanese villager/female/female wood collecting/1_character.png" id="13_s33bv"]
+[ext_resource type="Texture2D" uid="uid://cloc4djd3u21f" path="res://japanese empire/japanese villager/female/female wood collecting/2_character.png" id="14_as1eb"]
+[ext_resource type="Texture2D" uid="uid://cspell52gewdg" path="res://japanese empire/japanese villager/female/female wood collecting/3_character.png" id="15_2qcrt"]
+[ext_resource type="Texture2D" uid="uid://76k1pblv42x0" path="res://japanese empire/japanese villager/female/female wood collecting/4_character.png" id="16_htsox"]
+[ext_resource type="Texture2D" uid="uid://cueqvwbyq1a1h" path="res://japanese empire/japanese villager/female/female wood collecting/5_character.png" id="17_iydws"]
+[ext_resource type="Texture2D" uid="uid://bbnlbx6hag1mo" path="res://japanese empire/japanese villager/male/coin/1_character.png" id="26_k6uh8"]
+[ext_resource type="Texture2D" uid="uid://bwqfcvbqa4wqo" path="res://japanese empire/japanese villager/male/idle/1_character.png" id="26_pal6r"]
+[ext_resource type="Texture2D" uid="uid://bd4y3x700pkj2" path="res://japanese empire/japanese villager/male/coin/2_character.png" id="27_1mmp7"]
+[ext_resource type="Texture2D" uid="uid://c5gkhyg2kcuhg" path="res://japanese empire/japanese villager/male/idle/2_character.png" id="27_tyxxa"]
+[ext_resource type="Texture2D" uid="uid://8ft2qcg2j0tb" path="res://japanese empire/japanese villager/male/idle/3_character.png" id="28_ldmcd"]
+[ext_resource type="Texture2D" uid="uid://bwqvig3oglb1" path="res://japanese empire/japanese villager/male/coin/3_character.png" id="28_pyb04"]
+[ext_resource type="Texture2D" uid="uid://cgg6wf7wwxi05" path="res://japanese empire/japanese villager/male/idle/4_character.png" id="29_1l7c0"]
+[ext_resource type="Texture2D" uid="uid://b01pdqu5erdld" path="res://japanese empire/japanese villager/male/coin/4_character.png" id="29_q2kb4"]
+[ext_resource type="Texture2D" uid="uid://ddgv70agi1lxf" path="res://japanese empire/japanese villager/male/walk/1_character.png" id="30_lqjmf"]
+[ext_resource type="Texture2D" uid="uid://cck6c576l4esp" path="res://japanese empire/japanese villager/male/coin/5_character.png" id="30_obp0w"]
+[ext_resource type="Texture2D" uid="uid://c6jfsuc5hhtcr" path="res://japanese empire/japanese villager/male/walk/2_character.png" id="31_1eot3"]
+[ext_resource type="Texture2D" uid="uid://cmin1et8gtmnl" path="res://japanese empire/japanese villager/male/food/1_character.png" id="31_ppsfi"]
+[ext_resource type="Texture2D" uid="uid://dyqkggene5s6m" path="res://japanese empire/japanese villager/male/walk/3_character.png" id="32_fn5b1"]
+[ext_resource type="Texture2D" uid="uid://gj08yd86voer" path="res://japanese empire/japanese villager/male/food/2_character.png" id="32_psi0s"]
+[ext_resource type="Texture2D" uid="uid://c77bilngtutea" path="res://japanese empire/japanese villager/male/food/3_character.png" id="33_6aymu"]
+[ext_resource type="Texture2D" uid="uid://rsn2axgvxvm7" path="res://japanese empire/japanese villager/male/walk/4_character.png" id="33_osmky"]
+[ext_resource type="Texture2D" uid="uid://bw7s08ytbkfv" path="res://japanese empire/japanese villager/male/food/4_character.png" id="34_cirpv"]
+[ext_resource type="Texture2D" uid="uid://svne5uvmxl7m" path="res://japanese empire/japanese villager/male/walk/5_character.png" id="34_rnr0s"]
+[ext_resource type="Texture2D" uid="uid://c6hsmyk6lttj4" path="res://japanese empire/japanese villager/male/walk/6_character.png" id="35_bunw5"]
+[ext_resource type="Texture2D" uid="uid://utbmahkctwu0" path="res://japanese empire/japanese villager/male/food/5 (1).png" id="35_ef4mh"]
+[ext_resource type="Texture2D" uid="uid://cq0jo3rknopgf" path="res://japanese empire/japanese villager/male/food/5 (2).png" id="36_8el3u"]
+[ext_resource type="Texture2D" uid="uid://2hr4wueig8ec" path="res://japanese empire/japanese villager/male/food/5 (3).png" id="37_y1yrm"]
+[ext_resource type="Texture2D" uid="uid://bf54as8s0n4ki" path="res://japanese empire/japanese villager/male/food/5 (4).png" id="38_21m7m"]
+[ext_resource type="Texture2D" uid="uid://ckbfnm6rxq7u1" path="res://japanese empire/japanese villager/male/wood/1_character.png" id="49_yxpmv"]
+[ext_resource type="Texture2D" uid="uid://tsm4qq2a2xgq" path="res://japanese empire/japanese villager/male/wood/2_character.png" id="50_oc1p4"]
+[ext_resource type="Texture2D" uid="uid://cpteg86tombx7" path="res://japanese empire/japanese villager/male/wood/3_character.png" id="51_pw8di"]
+[ext_resource type="Texture2D" uid="uid://d1mo7s87tx3ln" path="res://japanese empire/japanese villager/male/wood/4_character.png" id="52_dr01y"]
+[ext_resource type="Texture2D" uid="uid://5ovocrwddr70" path="res://japanese empire/japanese villager/male/wood/5_character.png" id="53_gtxve"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3dbx5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_a3bhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6lkt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tdxnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gwwf4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pal6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tyxxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ldmcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1l7c0")
+}],
+"loop": true,
+"name": &"female_food_farming",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2gtab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_xx7mu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g3g5s")
+}],
+"loop": true,
+"name": &"female_idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_kwbxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1qhek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_uppnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3dbx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0ms43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_thpdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_s33bv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_as1eb")
+}],
+"loop": true,
+"name": &"female_walk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_s33bv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_as1eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_2qcrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_htsox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_iydws")
+}],
+"loop": true,
+"name": &"female_wood",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_k6uh8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1mmp7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_pyb04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_q2kb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_obp0w")
+}],
+"loop": true,
+"name": &"male_coin",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_ppsfi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_psi0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_6aymu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_cirpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ef4mh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_8el3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_y1yrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_21m7m")
+}],
+"loop": true,
+"name": &"male_food_farming",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_pal6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_tyxxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ldmcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_1l7c0")
+}],
+"loop": true,
+"name": &"male_idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_lqjmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_1eot3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_fn5b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_osmky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_rnr0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_bunw5")
+}],
+"loop": true,
+"name": &"male_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_yxpmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_oc1p4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_pw8di")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_dr01y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_gtxve")
+}],
+"loop": true,
+"name": &"male_wood",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k6uh8"]
+size = Vector2(33, 67)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_k6uh8"]
+radius = 277.2314
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2136692574]
+collision_mask = 2
+script = ExtResource("1_1qhek")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=388640627]
+position = Vector2(0, -4)
+sprite_frames = SubResource("SpriteFrames_3dbx5")
+animation = &"female_idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=813105156]
+position = Vector2(1, -2)
+shape = SubResource("RectangleShape2D_k6uh8")
+
+[node name="ClickArea" type="Area2D" parent="." unique_id=739241630]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ClickArea" unique_id=806163594]
+position = Vector2(1.5, -2)
+shape = SubResource("CircleShape2D_k6uh8")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=2136384799]
+offset_left = -18.0
+offset_top = -40.0
+offset_right = 19.0
+offset_bottom = -35.0
+value = 100.0

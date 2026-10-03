@@ -1,0 +1,191 @@
+[gd_scene format=3 uid="uid://bg7syhjqdeshj"]
+
+[ext_resource type="Script" uid="uid://358anm3bti00" path="res://scenes/mongol_town_center_ui.gd" id="1_s84to"]
+
+[node name="mongol_town_center_ui" type="Control" unique_id=1723795155]
+layout_mode = 3
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -161.0
+offset_top = -166.5
+offset_right = 161.0
+offset_bottom = 166.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_s84to")
+
+[node name="Background" type="Panel" parent="." unique_id=425672869]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0120001
+anchor_bottom = 1.0
+offset_right = 0.13598633
+offset_bottom = 3.0
+
+[node name="TitleBar" type="Panel" parent="." unique_id=1244211571]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -2.5
+offset_right = 1.0
+offset_bottom = -295.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MongolTownCenter" type="Label" parent="TitleBar" unique_id=1199699192]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 8.0
+offset_right = 256.0
+offset_bottom = 31.0
+text = "🐎Mongol Empire Town Center🐎"
+
+[node name="BuildingStatus" type="Panel" parent="." unique_id=1015560626]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.32000002
+offset_left = 1.0
+offset_top = 40.0
+offset_right = -269.0
+offset_bottom = -32.560005
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HealthBar" type="ProgressBar" parent="BuildingStatus" unique_id=2085839235]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.96300006
+anchor_right = 6.2500005
+anchor_bottom = 7.34
+offset_left = 196.0
+offset_top = 61.74209
+offset_right = -3.0517578e-05
+offset_bottom = -193.5599
+
+[node name="EraLabel" type="Label" parent="BuildingStatus" unique_id=699116732]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 7.8630004
+anchor_bottom = 1.46
+offset_left = 51.0
+offset_top = 1.0
+offset_right = -172.876
+offset_bottom = -25.64
+
+[node name="ConditionLabel" type="Label" parent="BuildingStatus" unique_id=1057523030]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.94000006
+anchor_right = 8.0
+anchor_bottom = 7.34
+offset_left = -2.0
+offset_top = 61.960114
+offset_right = -279.0
+offset_bottom = -188.98006
+
+[node name="VillagerSpawnSection" type="Panel" parent="." unique_id=1496328520]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.006
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 102.0
+offset_right = 0.067993164
+offset_bottom = -113.0
+
+[node name="TrainButton" type="Button" parent="VillagerSpawnSection" unique_id=1236749545]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.86100006
+anchor_right = 1.0
+anchor_bottom = 1.9460001
+offset_left = -1.0
+offset_top = 167.598
+offset_right = -239.0
+offset_bottom = -130.628
+text = "Click"
+
+[node name="PopulaceLabel" type="Label" parent="VillagerSpawnSection" unique_id=1120482122]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 24.0
+offset_right = 281.0
+offset_bottom = 55.0
+
+[node name="CooldownBar" type="ProgressBar" parent="VillagerSpawnSection" unique_id=365741536]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 63.0
+offset_right = 235.0
+offset_bottom = 107.0
+
+[node name="GenerationBonusSection" type="Panel" parent="." unique_id=2067875783]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.016
+anchor_bottom = 1.0150001
+offset_left = 1.0
+offset_top = 218.0
+offset_right = -0.15200806
+offset_bottom = -3.9950256
+
+[node name="Gen1Button" type="Button" parent="GenerationBonusSection" unique_id=53914276]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -1.845
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 236.02
+offset_right = -77.0
+offset_bottom = -63.0
+
+[node name="Gen2Button" type="Button" parent="GenerationBonusSection" unique_id=139488351]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 41.0
+offset_top = 52.0
+offset_right = -48.0
+offset_bottom = -33.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Gen3Button" type="Button" parent="GenerationBonusSection" unique_id=535122903]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -1.9110001
+anchor_right = 1.0
+anchor_bottom = 1.0170001
+offset_left = 14.0
+offset_top = 303.676
+offset_right = -80.0
+offset_bottom = -5.9720078
+
+[node name="MilestoneHint" type="Label" parent="GenerationBonusSection" unique_id=95304209]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.994
+anchor_bottom = 1.0
+offset_left = -19.0
+offset_top = 2.0
+offset_right = -108.04401
+offset_bottom = -88.0
+
+[node name="CloseButton" type="Button" parent="." unique_id=430083343]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0090001
+anchor_bottom = 1.0
+offset_left = 296.0
+offset_right = 0.101989746
+offset_bottom = -302.0
+text = "x"

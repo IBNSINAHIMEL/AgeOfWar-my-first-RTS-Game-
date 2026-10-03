@@ -1,0 +1,179 @@
+[gd_scene format=3 uid="uid://c7iwvq4jqegxa"]
+
+[ext_resource type="Script" uid="uid://bfqcbedausfi1" path="res://scripts/units/musketeer.gd" id="1_bbbfi"]
+[ext_resource type="Texture2D" uid="uid://clh5kute80rg8" path="res://native soldiers/musketeers/attack left/1_character.png" id="2_5a82c"]
+[ext_resource type="Texture2D" uid="uid://tj68yc211oe" path="res://native soldiers/musketeers/attack left/2_character.png" id="3_vm3gx"]
+[ext_resource type="Texture2D" uid="uid://rkw5krrmus5t" path="res://native soldiers/musketeers/attack left/3_character.png" id="4_r6iv7"]
+[ext_resource type="Texture2D" uid="uid://ftaa77ocjmr7" path="res://native soldiers/musketeers/attack left/4_character.png" id="5_5my4q"]
+[ext_resource type="Texture2D" uid="uid://bmtsx1padfdej" path="res://native soldiers/musketeers/attack left/5_character.png" id="6_8t1q1"]
+[ext_resource type="Texture2D" uid="uid://d2tt4rr1qxt8a" path="res://native soldiers/musketeers/attack left/6_character.png" id="7_rbkfo"]
+[ext_resource type="Texture2D" uid="uid://cp2a7bdu3n0nt" path="res://native soldiers/musketeers/attack right/1_character.png" id="8_p8dny"]
+[ext_resource type="Texture2D" uid="uid://423p6gyypjdx" path="res://native soldiers/musketeers/attack right/2_character.png" id="9_s7m27"]
+[ext_resource type="Texture2D" uid="uid://cv0b378e0m7vg" path="res://native soldiers/musketeers/attack right/3_character.png" id="10_gafdo"]
+[ext_resource type="Texture2D" uid="uid://dkvui8q2lw2ut" path="res://native soldiers/musketeers/attack right/4_character.png" id="11_4vrkb"]
+[ext_resource type="Texture2D" uid="uid://bc8k3lvtu7jea" path="res://native soldiers/musketeers/attack right/5_character.png" id="12_xju62"]
+[ext_resource type="Texture2D" uid="uid://c7g8sstiam37k" path="res://native soldiers/musketeers/attack right/6_character.png" id="13_42pja"]
+[ext_resource type="Texture2D" uid="uid://f5veeje4shga" path="res://native soldiers/musketeers/20260331_155632/1_character.png" id="14_0xff2"]
+[ext_resource type="Texture2D" uid="uid://b3a2jg4b32s5u" path="res://native soldiers/musketeers/20260331_155632/2_character.png" id="15_a8xt5"]
+[ext_resource type="Texture2D" uid="uid://tyk0l00nqcoh" path="res://native soldiers/musketeers/20260331_155632/3_character.png" id="16_4hls1"]
+[ext_resource type="Texture2D" uid="uid://x3w7iaklppgo" path="res://native soldiers/musketeers/hurt/1_character.png" id="17_ya7oc"]
+[ext_resource type="Texture2D" uid="uid://b73rui71naw4k" path="res://native soldiers/musketeers/hurt/2_character.png" id="18_h85en"]
+[ext_resource type="Texture2D" uid="uid://cpkm4s4i3txgl" path="res://native soldiers/musketeers/hurt/3_character.png" id="19_6187j"]
+[ext_resource type="Texture2D" uid="uid://k5rvef8bjujk" path="res://native soldiers/musketeers/idle/1_character.png" id="20_usck0"]
+[ext_resource type="Texture2D" uid="uid://be03ffc85ekah" path="res://native soldiers/musketeers/idle/2_character.png" id="21_miqom"]
+[ext_resource type="Texture2D" uid="uid://cj1lhqvbsby2v" path="res://native soldiers/musketeers/idle/3_character.png" id="22_claqk"]
+[ext_resource type="Texture2D" uid="uid://d3tk1rt1635m5" path="res://native soldiers/musketeers/idle/4_character.png" id="23_rf3fm"]
+[ext_resource type="Texture2D" uid="uid://c2jnbi2n4t8q1" path="res://native soldiers/musketeers/walk/1_character.png" id="24_76rea"]
+[ext_resource type="Texture2D" uid="uid://d084bd0nv73b" path="res://native soldiers/musketeers/walk/2_character.png" id="25_lvjeg"]
+[ext_resource type="Texture2D" uid="uid://ce2qsqh0t73o2" path="res://native soldiers/musketeers/walk/3_character.png" id="26_mlmin"]
+[ext_resource type="Texture2D" uid="uid://yngixer12dwh" path="res://native soldiers/musketeers/walk/4_character.png" id="27_2iby5"]
+[ext_resource type="Texture2D" uid="uid://buh7nanu5ryx4" path="res://native soldiers/musketeers/walk/5_character.png" id="28_uqe4r"]
+[ext_resource type="Texture2D" uid="uid://c6u3yir8pr70v" path="res://native soldiers/musketeers/walk/6_character.png" id="29_v73e1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_papux"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_5a82c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vm3gx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_r6iv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5my4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8t1q1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rbkfo")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_p8dny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_s7m27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gafdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4vrkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_xju62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_42pja")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_0xff2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_a8xt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4hls1")
+}],
+"loop": true,
+"name": &"die",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_ya7oc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_h85en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6187j")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_usck0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_miqom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_claqk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_rf3fm")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_76rea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_lvjeg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_mlmin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_2iby5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_uqe4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_v73e1")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bbbfi"]
+size = Vector2(23, 54)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bbbfi"]
+radius = 352.6418
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=809735448]
+script = ExtResource("1_bbbfi")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1250625826]
+sprite_frames = SubResource("SpriteFrames_papux")
+animation = &"idle"
+frame_progress = 0.78829277
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=444570693]
+position = Vector2(-1.5, 3)
+shape = SubResource("RectangleShape2D_bbbfi")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1219481923]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=1457978755]
+position = Vector2(-1.5, 3)
+shape = SubResource("CircleShape2D_bbbfi")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="." unique_id=962750687]
+offset_left = -13.0
+offset_top = -30.0
+offset_right = 11.0
+offset_bottom = -26.0
+value = 100.0

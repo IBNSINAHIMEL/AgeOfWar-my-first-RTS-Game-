@@ -1,0 +1,180 @@
+[gd_scene format=3 uid="uid://cwv6vx8mnecv"]
+
+[ext_resource type="Script" uid="uid://vc1hesjqjhb0" path="res://scenes/units/japanese_archer.gd" id="1_bm0te"]
+[ext_resource type="Texture2D" uid="uid://dp1w5hpf06om4" path="res://japanese empire/archer/idle/1_character.png" id="1_qwci5"]
+[ext_resource type="Texture2D" uid="uid://dou2gmlu12ihd" path="res://japanese empire/archer/idle/2_character.png" id="2_bm0te"]
+[ext_resource type="Texture2D" uid="uid://dkxgk825pmcqo" path="res://japanese empire/archer/attack left/1_character.png" id="2_mpkof"]
+[ext_resource type="Texture2D" uid="uid://42ou4vswhbju" path="res://japanese empire/archer/attack left/2_character.png" id="3_pgdjn"]
+[ext_resource type="Texture2D" uid="uid://cilvqoo4jtfdr" path="res://japanese empire/archer/idle/3_character.png" id="3_v8lph"]
+[ext_resource type="Texture2D" uid="uid://c65lho7ugnnsb" path="res://japanese empire/archer/idle/4_character.png" id="4_5bm3i"]
+[ext_resource type="Texture2D" uid="uid://dd1vjoa1bos0v" path="res://japanese empire/archer/attack left/3_character.png" id="4_bkdch"]
+[ext_resource type="Texture2D" uid="uid://c7y1x0rhqrwrm" path="res://japanese empire/archer/walk/1_character.png" id="5_1btdo"]
+[ext_resource type="Texture2D" uid="uid://d4e2n1786r7k6" path="res://japanese empire/archer/attack left/4_character.png" id="5_78221"]
+[ext_resource type="Texture2D" uid="uid://mj8kpawb2bv5" path="res://japanese empire/archer/walk/2_character.png" id="6_iofw4"]
+[ext_resource type="Texture2D" uid="uid://clpv5ky52bado" path="res://japanese empire/archer/attack left/5_character.png" id="6_kanrk"]
+[ext_resource type="Texture2D" uid="uid://jqidf7s4q21e" path="res://japanese empire/archer/attack left/6_character.png" id="7_4ua5j"]
+[ext_resource type="Texture2D" uid="uid://ch5py5abj61pr" path="res://japanese empire/archer/walk/3_character.png" id="7_invf5"]
+[ext_resource type="Texture2D" uid="uid://2j7th36eboat" path="res://japanese empire/archer/attack right/1_character.png" id="8_3ueub"]
+[ext_resource type="Texture2D" uid="uid://dqt5wyjtv7lry" path="res://japanese empire/archer/walk/4_character.png" id="8_6w5j1"]
+[ext_resource type="Texture2D" uid="uid://0844g0lmqd7p" path="res://japanese empire/archer/walk/5_character.png" id="9_6l5sx"]
+[ext_resource type="Texture2D" uid="uid://cm2tps4ohhwxh" path="res://japanese empire/archer/attack right/2_character.png" id="9_mw3qn"]
+[ext_resource type="Texture2D" uid="uid://dolx4gphi66ms" path="res://japanese empire/archer/attack right/3_character.png" id="10_5vsy0"]
+[ext_resource type="Texture2D" uid="uid://cc3athvh8ouw7" path="res://japanese empire/archer/walk/6_character.png" id="10_u0046"]
+[ext_resource type="Texture2D" uid="uid://bdebanme8xp1c" path="res://japanese empire/archer/attack right/4_character.png" id="11_6pauq"]
+[ext_resource type="Texture2D" uid="uid://bou7lnudtns4q" path="res://japanese empire/archer/attack right/5_character.png" id="12_mckvd"]
+[ext_resource type="Texture2D" uid="uid://d1orepxmn62x" path="res://japanese empire/archer/attack right/6_character.png" id="13_c5ma6"]
+[ext_resource type="Texture2D" uid="uid://c4ma71mv7bbup" path="res://japanese empire/pikeman/die/1_character.png" id="14_8nlcl"]
+[ext_resource type="Texture2D" uid="uid://b3dg3gc18lfrc" path="res://japanese empire/pikeman/die/2_character.png" id="15_m8ugf"]
+[ext_resource type="Texture2D" uid="uid://6ekmeifi0g2i" path="res://japanese empire/pikeman/die/3_character.png" id="16_i34k5"]
+[ext_resource type="Texture2D" uid="uid://uayou35rtfyq" path="res://japanese empire/pikeman/hurt/1_character.png" id="17_2vphk"]
+[ext_resource type="Texture2D" uid="uid://b8dmcbkkjpue4" path="res://japanese empire/pikeman/hurt/2_character.png" id="18_rukw0"]
+[ext_resource type="Texture2D" uid="uid://3rrqvkjjlxry" path="res://japanese empire/pikeman/hurt/3_character.png" id="19_4vky2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_okq6l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mpkof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pgdjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_bkdch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_78221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_kanrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4ua5j")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_3ueub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mw3qn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5vsy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_6pauq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mckvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_c5ma6")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_8nlcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_m8ugf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_i34k5")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_2vphk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_rukw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4vky2")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qwci5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_bm0te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_v8lph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5bm3i")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_1btdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_iofw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_invf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6w5j1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6l5sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_u0046")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mpkof"]
+size = Vector2(37, 63)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mpkof"]
+radius = 501.54886
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1028712158]
+collision_mask = 2
+script = ExtResource("1_bm0te")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=803424643]
+sprite_frames = SubResource("SpriteFrames_okq6l")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1977452519]
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_mpkof")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1465308167]
+position = Vector2(-0.5, 0.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=625001032]
+position = Vector2(0, 0.5)
+shape = SubResource("CircleShape2D_mpkof")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=1000317504]
+offset_left = -21.0
+offset_top = -31.0
+offset_right = 19.0
+offset_bottom = -27.0
+value = 100.0

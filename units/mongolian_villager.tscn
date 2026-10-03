@@ -1,0 +1,218 @@
+[gd_scene format=3 uid="uid://dm25s82laey7h"]
+
+[ext_resource type="Script" uid="uid://bn368gjkfow10" path="res://mongolian_villager.gd" id="1_ik10m"]
+[ext_resource type="Texture2D" uid="uid://clndkvumgw5lu" path="res://mongol empire/mongolian villager/female/food/1_character.png" id="2_bhi46"]
+[ext_resource type="Texture2D" uid="uid://ceo3xy6yetoqs" path="res://mongol empire/mongolian villager/female/idle/1_character.png" id="2_jjsx5"]
+[ext_resource type="Texture2D" uid="uid://dehall7jnasxb" path="res://mongol empire/mongolian villager/male/idle/1_character.png" id="2_wje60"]
+[ext_resource type="Texture2D" uid="uid://bdet8egx3dae" path="res://mongol empire/mongolian villager/female/idle/2_character.png" id="3_8003k"]
+[ext_resource type="Texture2D" uid="uid://dya6no35t3sp8" path="res://mongol empire/mongolian villager/male/idle/2_character.png" id="3_hhi17"]
+[ext_resource type="Texture2D" uid="uid://kluco0pvwvys" path="res://mongol empire/mongolian villager/female/food/2_character.png" id="3_inwwu"]
+[ext_resource type="Texture2D" uid="uid://dqsjqaaejom" path="res://mongol empire/mongolian villager/female/food/3_character.png" id="4_1dqkj"]
+[ext_resource type="Texture2D" uid="uid://bivh5hrqlq7bh" path="res://mongol empire/mongolian villager/female/idle/3_2_character.png" id="4_n1pak"]
+[ext_resource type="Texture2D" uid="uid://cif63psxm11mc" path="res://mongol empire/mongolian villager/male/idle/3_character.png" id="4_y5pqe"]
+[ext_resource type="Texture2D" uid="uid://ch70k3jfcns51" path="res://mongol empire/mongolian villager/male/idle/4_character.png" id="5_54ota"]
+[ext_resource type="Texture2D" uid="uid://deme5yn0u4jpi" path="res://mongol empire/mongolian villager/female/food/4_character.png" id="5_j48v1"]
+[ext_resource type="Texture2D" uid="uid://tfmadwk61sh0" path="res://mongol empire/mongolian villager/female/idle/4_character.png" id="5_s5ffl"]
+[ext_resource type="Texture2D" uid="uid://bff7yd26tqh3u" path="res://mongol empire/mongolian villager/male/idle/5_character.png" id="6_bp6d7"]
+[ext_resource type="Texture2D" uid="uid://c2gubtb403utx" path="res://mongol empire/mongolian villager/male/food/1_-_Copy_character.png" id="6_irtxf"]
+[ext_resource type="Texture2D" uid="uid://c3mw2afcrwp8e" path="res://mongol empire/mongolian villager/female/food/5_character.png" id="6_mxklw"]
+[ext_resource type="Texture2D" uid="uid://dpciaaroe2q2j" path="res://mongol empire/mongolian villager/female/walk/1_character.png" id="6_s5ffl"]
+[ext_resource type="Texture2D" uid="uid://uk8tls14bgje" path="res://mongol empire/mongolian villager/male/food/2_character.png" id="7_2eom0"]
+[ext_resource type="Texture2D" uid="uid://x1k6u24rtpry" path="res://mongol empire/mongolian villager/male/walk/1_character.png" id="7_bp6d7"]
+[ext_resource type="Texture2D" uid="uid://mmroxa7bgcrw" path="res://mongol empire/mongolian villager/female/walk/7_character.png" id="7_irtxf"]
+[ext_resource type="Texture2D" uid="uid://dl1ldgh1vr7qn" path="res://mongol empire/mongolian villager/female/walk/9_character.png" id="8_2eom0"]
+[ext_resource type="Texture2D" uid="uid://cjh877dp5iwy4" path="res://mongol empire/mongolian villager/male/walk/3_character.png" id="8_b0174"]
+[ext_resource type="Texture2D" uid="uid://dry5d2pdglh5a" path="res://mongol empire/mongolian villager/male/food/3_character.png" id="8_f564e"]
+[ext_resource type="Texture2D" uid="uid://1ovo1sm66nl" path="res://mongol empire/mongolian villager/male/walk/5_character.png" id="9_1xlkv"]
+[ext_resource type="Texture2D" uid="uid://cvwtjvsj45u5e" path="res://mongol empire/mongolian villager/female/wood/1_character.png" id="9_wg80t"]
+[ext_resource type="Texture2D" uid="uid://bwtl6ya81yse5" path="res://mongol empire/mongolian villager/male/food/4_character.png" id="9_xhtu4"]
+[ext_resource type="Texture2D" uid="uid://bejtn0l4krh0q" path="res://mongol empire/mongolian villager/male/walk/4_character.png" id="10_ns25a"]
+[ext_resource type="Texture2D" uid="uid://c2b4dwiikyl28" path="res://mongol empire/mongolian villager/male/food/5_character.png" id="10_wg80t"]
+[ext_resource type="Texture2D" uid="uid://bxv0c2g4lmrcg" path="res://mongol empire/mongolian villager/female/wood/2_character.png" id="10_wji5u"]
+[ext_resource type="Texture2D" uid="uid://c4n543x8c33v3" path="res://mongol empire/mongolian villager/female/wood/3_character.png" id="11_rk58i"]
+[ext_resource type="Texture2D" uid="uid://cmylxh0jiwkhl" path="res://mongol empire/mongolian villager/female/wood/4_character.png" id="12_ld1si"]
+[ext_resource type="Texture2D" uid="uid://bydn00pfxchss" path="res://mongol empire/mongolian villager/male/wood/1_character.png" id="20_wji5u"]
+[ext_resource type="Texture2D" uid="uid://c4g6occ5g7w7w" path="res://mongol empire/mongolian villager/male/wood/2_character.png" id="21_rk58i"]
+[ext_resource type="Texture2D" uid="uid://dk6yhohlpfwdc" path="res://mongol empire/mongolian villager/male/wood/3_character.png" id="22_ld1si"]
+[ext_resource type="Texture2D" uid="uid://ceegpgf0f4qlq" path="res://mongol empire/mongolian villager/male/wood/4_character.png" id="23_bhi46"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b0174"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_bhi46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_inwwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1dqkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_j48v1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mxklw")
+}],
+"loop": true,
+"name": &"female_food_farming",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_jjsx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_8003k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_n1pak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_s5ffl")
+}],
+"loop": true,
+"name": &"female_idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_s5ffl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_irtxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2eom0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_irtxf")
+}],
+"loop": true,
+"name": &"female_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_wg80t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wji5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rk58i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ld1si")
+}],
+"loop": true,
+"name": &"female_wood",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_irtxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2eom0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_f564e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_xhtu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wg80t")
+}],
+"loop": true,
+"name": &"male_food_farming",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_wje60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hhi17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_y5pqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_54ota")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_bp6d7")
+}],
+"loop": true,
+"name": &"male_idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_bp6d7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b0174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1xlkv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b0174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ns25a")
+}],
+"loop": true,
+"name": &"male_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_wji5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_rk58i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ld1si")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bhi46")
+}],
+"loop": true,
+"name": &"male_wood",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bhi46"]
+size = Vector2(36, 61)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bhi46"]
+radius = 464.21036
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1507310613]
+script = ExtResource("1_ik10m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=808930406]
+sprite_frames = SubResource("SpriteFrames_b0174")
+animation = &"female_idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=576505868]
+position = Vector2(-3, -2)
+shape = SubResource("RectangleShape2D_bhi46")
+
+[node name="ClickArea" type="Area2D" parent="." unique_id=1942896563]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ClickArea" unique_id=1703773236]
+position = Vector2(-4.5, 0)
+shape = SubResource("CircleShape2D_bhi46")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=75600982]
+offset_left = -23.0
+offset_top = -38.0
+offset_right = 17.0
+offset_bottom = -31.0
+value = 100.0

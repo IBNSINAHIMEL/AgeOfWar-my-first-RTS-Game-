@@ -1,0 +1,257 @@
+[gd_scene format=3 uid="uid://dv0p17ubbrbou"]
+
+[ext_resource type="Script" uid="uid://du1ntqla6fq6t" path="res://scenes/units/indian_villager.gd" id="1_coyxs"]
+[ext_resource type="Texture2D" uid="uid://bokq11vplx3h7" path="res://mughal empire/indian villager/female/idle/1_character.png" id="2_nwptl"]
+[ext_resource type="Texture2D" uid="uid://ds61fixjkogng" path="res://mughal empire/indian villager/female/food/1_character.png" id="2_vgcid"]
+[ext_resource type="Texture2D" uid="uid://b1u8duxbd6gyh" path="res://mughal empire/indian villager/female/idle/2_character.png" id="3_as5ct"]
+[ext_resource type="Texture2D" uid="uid://cb7gyo5a83wfc" path="res://mughal empire/indian villager/female/food/2_character.png" id="3_lwomn"]
+[ext_resource type="Texture2D" uid="uid://bj84qcudlj2a4" path="res://mughal empire/indian villager/female/food/3_character.png" id="4_6vq12"]
+[ext_resource type="Texture2D" uid="uid://ddutgbetni51j" path="res://mughal empire/indian villager/female/idle/Untitled_3_character.png" id="4_y67f7"]
+[ext_resource type="Texture2D" uid="uid://wushgenlgfv4" path="res://mughal empire/indian villager/female/food/4_character.png" id="5_cga88"]
+[ext_resource type="Texture2D" uid="uid://4kgnmrmxt61i" path="res://mughal empire/indian villager/female/idle/Untitled_4_character.png" id="5_tee3q"]
+[ext_resource type="Texture2D" uid="uid://dejhxusny7rpi" path="res://mughal empire/indian villager/female/walk/1_character.png" id="6_knkvm"]
+[ext_resource type="Texture2D" uid="uid://b1kt64tf3nsb1" path="res://mughal empire/indian villager/female/food/5_character.png" id="6_rolfo"]
+[ext_resource type="Texture2D" uid="uid://g0v1ygh63ka6" path="res://mughal empire/indian villager/female/walk/2_character.png" id="7_iiwqv"]
+[ext_resource type="Texture2D" uid="uid://b06fkftsotr57" path="res://mughal empire/indian villager/female/food/6_character.png" id="7_x8oc0"]
+[ext_resource type="Texture2D" uid="uid://cwo1iuk07m2sj" path="res://mughal empire/indian villager/female/walk/3_character.png" id="8_jmhrt"]
+[ext_resource type="Texture2D" uid="uid://p310e78ynj2x" path="res://mughal empire/indian villager/female/walk/4_character.png" id="9_pesth"]
+[ext_resource type="Texture2D" uid="uid://bliqdc56sci0h" path="res://mughal empire/indian villager/female/walk/5_character.png" id="10_31uod"]
+[ext_resource type="Texture2D" uid="uid://yg4def38n2sr" path="res://mughal empire/indian villager/female/walk/6_character.png" id="11_h4c4x"]
+[ext_resource type="Texture2D" uid="uid://wwrt6xkd3o6g" path="res://mughal empire/indian villager/female/wood/1_character.png" id="18_mqqfd"]
+[ext_resource type="Texture2D" uid="uid://cs7gyu17k7p41" path="res://mughal empire/indian villager/female/wood/2_character.png" id="19_kylah"]
+[ext_resource type="Texture2D" uid="uid://b2lxeaqif2tie" path="res://mughal empire/indian villager/female/wood/3_character.png" id="20_kh38t"]
+[ext_resource type="Texture2D" uid="uid://di4lebseom40v" path="res://mughal empire/indian villager/female/wood/4_character.png" id="21_joqi8"]
+[ext_resource type="Texture2D" uid="uid://o15ihxrf5e07" path="res://mughal empire/indian villager/female/wood/5_character.png" id="22_f1tao"]
+[ext_resource type="Texture2D" uid="uid://c3fbbm168dh3k" path="res://mughal empire/indian villager/female/wood/6_character.png" id="23_hgfjv"]
+[ext_resource type="Texture2D" uid="uid://b2ubvsb4d7hdb" path="res://mughal empire/indian villager/male/idle/1_character.png" id="24_7qfy1"]
+[ext_resource type="Texture2D" uid="uid://3y4xxra2hjk2" path="res://mughal empire/indian villager/male/food/1_character.png" id="24_3735p"]
+[ext_resource type="Texture2D" uid="uid://v0iobq16avyr" path="res://mughal empire/indian villager/male/idle/2_character.png" id="25_abbha"]
+[ext_resource type="Texture2D" uid="uid://5wa6bmmt8bt4" path="res://mughal empire/indian villager/male/food/2_character.png" id="25_e3lcw"]
+[ext_resource type="Texture2D" uid="uid://ci2nxj3j3ph15" path="res://mughal empire/indian villager/male/food/3_character.png" id="26_pcirb"]
+[ext_resource type="Texture2D" uid="uid://c0mpkpoa4s3u" path="res://mughal empire/indian villager/male/idle/3_character.png" id="26_qo567"]
+[ext_resource type="Texture2D" uid="uid://bk51oc6dw2t3l" path="res://mughal empire/indian villager/male/food/4_character.png" id="27_6i010"]
+[ext_resource type="Texture2D" uid="uid://c4c1ym5aqw5tc" path="res://mughal empire/indian villager/male/idle/4_character.png" id="27_o4jpx"]
+[ext_resource type="Texture2D" uid="uid://b1od1dfl58x6u" path="res://mughal empire/indian villager/male/food/5_character.png" id="28_ds0py"]
+[ext_resource type="Texture2D" uid="uid://b6ao24ks1fyha" path="res://mughal empire/indian villager/male/walk/1_character.png" id="28_kh38t"]
+[ext_resource type="Texture2D" uid="uid://daxnx4csaxrl0" path="res://mughal empire/indian villager/male/food/6_character.png" id="29_1u8ta"]
+[ext_resource type="Texture2D" uid="uid://qleboerkjuvu" path="res://mughal empire/indian villager/male/walk/2_character.png" id="29_joqi8"]
+[ext_resource type="Texture2D" uid="uid://dtihs3y1nsp80" path="res://mughal empire/indian villager/male/walk/3_character.png" id="30_f1tao"]
+[ext_resource type="Texture2D" uid="uid://fxrv6ljav382" path="res://mughal empire/indian villager/male/food/7_character.png" id="30_rhcwm"]
+[ext_resource type="Texture2D" uid="uid://2thaak011c7b" path="res://mughal empire/indian villager/male/food/8_character.png" id="31_fdf5t"]
+[ext_resource type="Texture2D" uid="uid://f2k0xahejmy6" path="res://mughal empire/indian villager/male/walk/4_character.png" id="31_hgfjv"]
+[ext_resource type="Texture2D" uid="uid://blns5lgf61wsi" path="res://mughal empire/indian villager/male/wood/1_character.png" id="32_7qfy1"]
+[ext_resource type="Texture2D" uid="uid://dygoi6rib84ul" path="res://mughal empire/indian villager/male/wood/2_character.png" id="33_abbha"]
+[ext_resource type="Texture2D" uid="uid://cyvo0upcfoutf" path="res://mughal empire/indian villager/male/wood/3_character.png" id="34_qo567"]
+[ext_resource type="Texture2D" uid="uid://dholegjlw31lo" path="res://mughal empire/indian villager/male/wood/4_character.png" id="35_o4jpx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jri6i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_vgcid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lwomn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6vq12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cga88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rolfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_x8oc0")
+}],
+"loop": true,
+"name": &"female_food_farming",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_nwptl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_as5ct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_y67f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tee3q")
+}],
+"loop": true,
+"name": &"female_idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_knkvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_iiwqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_jmhrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_pesth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_31uod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_h4c4x")
+}],
+"loop": true,
+"name": &"female_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_mqqfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_kylah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_kh38t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_joqi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_f1tao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_hgfjv")
+}],
+"loop": true,
+"name": &"female_wood",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_3735p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_e3lcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_pcirb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_6i010")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ds0py")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_1u8ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_rhcwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_fdf5t")
+}],
+"loop": true,
+"name": &"male_food_farming",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_7qfy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_abbha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_qo567")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_o4jpx")
+}],
+"loop": true,
+"name": &"male_idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_kh38t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_joqi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_f1tao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_hgfjv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_f1tao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_kh38t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_f1tao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_joqi8")
+}],
+"loop": true,
+"name": &"male_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_7qfy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_abbha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_qo567")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_o4jpx")
+}],
+"loop": true,
+"name": &"male_wood",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3735p"]
+size = Vector2(29, 62)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3735p"]
+radius = 367.16483
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2118830634]
+collision_mask = 2
+script = ExtResource("1_coyxs")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1673788532]
+sprite_frames = SubResource("SpriteFrames_jri6i")
+animation = &"male_idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1400517185]
+position = Vector2(-2.5, 2)
+shape = SubResource("RectangleShape2D_3735p")
+
+[node name="ClickArea" type="Area2D" parent="." unique_id=1897312782]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ClickArea" unique_id=835143248]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_3735p")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=1150743033]
+offset_left = -18.0
+offset_top = -35.0
+offset_right = 15.0
+offset_bottom = -29.0
+value = 100.0

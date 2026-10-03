@@ -1,0 +1,170 @@
+[gd_scene format=3 uid="uid://cyawgej81hsf4"]
+
+[ext_resource type="Script" uid="uid://dabmuhmthcp7l" path="res://scenes/units/mongol_knight.gd" id="1_3gtnp"]
+[ext_resource type="Texture2D" uid="uid://sljnxf02n4k" path="res://mongol empire/knight/idle/1_character.png" id="1_eqmie"]
+[ext_resource type="Texture2D" uid="uid://cm24ghjhrwyy1" path="res://mongol empire/knight/attack left/1_character.png" id="2_6hsf2"]
+[ext_resource type="Texture2D" uid="uid://diiw6g8li8sug" path="res://mongol empire/knight/idle/2_character.png" id="2_ro0fu"]
+[ext_resource type="Texture2D" uid="uid://blsb45j3ql12v" path="res://mongol empire/knight/attack left/2_character.png" id="3_jhj5w"]
+[ext_resource type="Texture2D" uid="uid://cw4yinwwyv7gd" path="res://mongol empire/knight/idle/3_character.png" id="3_ldrso"]
+[ext_resource type="Texture2D" uid="uid://cue62cumwyguc" path="res://mongol empire/knight/attack left/3_character.png" id="4_0rwiw"]
+[ext_resource type="Texture2D" uid="uid://csmg0lty64fib" path="res://mongol empire/knight/idle/4_character.png" id="4_4h0t8"]
+[ext_resource type="Texture2D" uid="uid://fqagx611tqr2" path="res://mongol empire/knight/attack left/4_character.png" id="5_s4eev"]
+[ext_resource type="Texture2D" uid="uid://dorbkc6p33728" path="res://mongol empire/knight/attack right/1_character.png" id="6_deow3"]
+[ext_resource type="Texture2D" uid="uid://bjdj0m5ww1up3" path="res://mongol empire/knight/walk/1_character.png" id="6_x0pq4"]
+[ext_resource type="Texture2D" uid="uid://h8x3rk1ej7u2" path="res://mongol empire/knight/attack right/2_character.png" id="7_gkhi7"]
+[ext_resource type="Texture2D" uid="uid://ccjvcm4uc0mln" path="res://mongol empire/knight/walk/2_character.png" id="7_jspk8"]
+[ext_resource type="Texture2D" uid="uid://rxhmas8ttcjj" path="res://mongol empire/knight/attack right/3_character.png" id="8_8tbaw"]
+[ext_resource type="Texture2D" uid="uid://cn8yni8xeebnp" path="res://mongol empire/knight/walk/3_character.png" id="8_r8ho1"]
+[ext_resource type="Texture2D" uid="uid://bli4hid8gyf55" path="res://mongol empire/knight/attack right/4_character.png" id="9_6q207"]
+[ext_resource type="Texture2D" uid="uid://b28srghag8ghr" path="res://mongol empire/knight/walk/4_character.png" id="9_ggope"]
+[ext_resource type="Texture2D" uid="uid://ddhwycnnokyq4" path="res://mongol empire/knight/attack right/5_character.png" id="10_3bp8l"]
+[ext_resource type="Texture2D" uid="uid://b0yw1k0m2dkdg" path="res://mongol empire/knight/walk/5_character.png" id="10_so3es"]
+[ext_resource type="Texture2D" uid="uid://c6ho8ywi4rlm8" path="res://mongol empire/knight/attack right/6_character.png" id="11_6pf3a"]
+[ext_resource type="Texture2D" uid="uid://bnxgk5lqkv23o" path="res://mongol empire/knight/walk/6_character.png" id="11_x12i4"]
+[ext_resource type="Texture2D" uid="uid://dajiij458oidl" path="res://mongol empire/knight/die/1_character.png" id="12_bg7tc"]
+[ext_resource type="Texture2D" uid="uid://0mkj5yefotck" path="res://mongol empire/knight/die/2_character.png" id="13_06q1i"]
+[ext_resource type="Texture2D" uid="uid://b6ik1enkjdk7p" path="res://mongol empire/knight/die/3_character.png" id="14_564jo"]
+[ext_resource type="Texture2D" uid="uid://l4uvy7rs1tnx" path="res://mongol empire/knight/hurt/1_character.png" id="15_yxwgb"]
+[ext_resource type="Texture2D" uid="uid://0ssyekj4vlxe" path="res://mongol empire/knight/hurt/2_character.png" id="16_8w6ml"]
+[ext_resource type="Texture2D" uid="uid://v3jmbuen6f2m" path="res://mongol empire/knight/hurt/3_character.png" id="17_kdoji"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gqcmk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_6hsf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jhj5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0rwiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_s4eev")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_deow3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_gkhi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8tbaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6q207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3bp8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_6pf3a")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_bg7tc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_06q1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_564jo")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_yxwgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8w6ml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_kdoji")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_eqmie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ro0fu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ldrso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4h0t8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_x0pq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jspk8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_r8ho1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ggope")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_so3es")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_x12i4")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6hsf2"]
+size = Vector2(53, 54)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jhj5w"]
+radius = 649.1664
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=603039934]
+script = ExtResource("1_3gtnp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1378085596]
+sprite_frames = SubResource("SpriteFrames_gqcmk")
+animation = &"idle"
+frame_progress = 0.6545616
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=457211761]
+position = Vector2(-4.5, 5)
+shape = SubResource("RectangleShape2D_6hsf2")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=884464357]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=658845057]
+shape = SubResource("CircleShape2D_jhj5w")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=1453595306]
+offset_left = -25.0
+offset_top = -28.0
+offset_right = 23.0
+offset_bottom = -21.0
+value = 100.0

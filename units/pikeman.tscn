@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://wqbf6ayox5wk"]
+
+[ext_resource type="Script" uid="uid://f4ix2chdb8ii" path="res://scenes/units/pikeman.gd" id="1_xskqj"]
+[ext_resource type="Texture2D" uid="uid://dmtcdn5gqye6d" path="res://mughal empire/pikeman/attack_left/1_character.png" id="2_brwoq"]
+[ext_resource type="Texture2D" uid="uid://ckubnlxn6lpey" path="res://mughal empire/pikeman/idle/_character.png" id="2_mlcfu"]
+[ext_resource type="Texture2D" uid="uid://4hhwluicvwfk" path="res://mughal empire/pikeman/attack right/1_characte.png" id="2_wdsqs"]
+[ext_resource type="Texture2D" uid="uid://cug71dsadb7v6" path="res://mughal empire/pikeman/attack right/2_characte.png" id="3_nmbxj"]
+[ext_resource type="Texture2D" uid="uid://dbogetjyk6hb0" path="res://mughal empire/pikeman/attack_left/3_character.png" id="3_upefk"]
+[ext_resource type="Texture2D" uid="uid://bnilmu58yqnjr" path="res://mughal empire/pikeman/idle/i1_character.png" id="3_xskqj"]
+[ext_resource type="Texture2D" uid="uid://dbcqypum7ngwy" path="res://mughal empire/pikeman/attack_left/4_character.png" id="4_8c67l"]
+[ext_resource type="Texture2D" uid="uid://5qph0u2if05u" path="res://mughal empire/pikeman/attack right/Untitled_3_character.png" id="4_cb3b0"]
+[ext_resource type="Texture2D" uid="uid://bm2ajva2s0upk" path="res://mughal empire/pikeman/idle/main_character.png" id="4_ye0t7"]
+[ext_resource type="Texture2D" uid="uid://dmowurvd4afdp" path="res://mughal empire/pikeman/attack_left/5_character.png" id="5_h32wb"]
+[ext_resource type="Texture2D" uid="uid://dx0k5ou1q8r32" path="res://mughal empire/pikeman/walk/1_character.png" id="5_xskqj"]
+[ext_resource type="Texture2D" uid="uid://bxjqiq3xjcwqf" path="res://mughal empire/pikeman/attack_left/6_character.png" id="6_hnm3e"]
+[ext_resource type="Texture2D" uid="uid://ds13gljpc4jg1" path="res://mughal empire/pikeman/walk/2_character.png" id="6_ye0t7"]
+[ext_resource type="Texture2D" uid="uid://dxcnqft264h64" path="res://mughal empire/pikeman/walk/3_character.png" id="7_wdsqs"]
+[ext_resource type="Texture2D" uid="uid://dsac041dilfhd" path="res://mughal empire/pikeman/walk/4_character.png" id="8_nmbxj"]
+[ext_resource type="Texture2D" uid="uid://16jau5g8dfn5" path="res://mughal empire/pikeman/walk/5_character.png" id="9_cb3b0"]
+[ext_resource type="Texture2D" uid="uid://bop4ur32p5lxi" path="res://mughal empire/pikeman/die/1_character.png" id="10_cadn2"]
+[ext_resource type="Texture2D" uid="uid://b71q1bh5g6stc" path="res://mughal empire/pikeman/walk/6_2_character.png" id="10_g144g"]
+[ext_resource type="Texture2D" uid="uid://cn6amwia74jbw" path="res://mughal empire/pikeman/hurt/1_character.png" id="10_h32wb"]
+[ext_resource type="Texture2D" uid="uid://tihi4461mjal" path="res://mughal empire/pikeman/hurt/2_character.png" id="11_hnm3e"]
+[ext_resource type="Texture2D" uid="uid://byda531vciobe" path="res://mughal empire/pikeman/die/2_character.png" id="11_o12js"]
+[ext_resource type="Texture2D" uid="uid://cbw2l68u7dqqs" path="res://mughal empire/pikeman/hurt/3_character.png" id="12_4cxeg"]
+[ext_resource type="Texture2D" uid="uid://duvc3wylcxc7s" path="res://mughal empire/pikeman/die/3_character.png" id="12_sxgqb"]
+[ext_resource type="Texture2D" uid="uid://cboyfcmdcnqbu" path="res://mughal empire/pikeman/die/4_character.png" id="13_c6b2l"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mlcfu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_brwoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_upefk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8c67l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_h32wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hnm3e")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_wdsqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nmbxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_cb3b0")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_cadn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_o12js")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_sxgqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_c6b2l")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_h32wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hnm3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4cxeg")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mlcfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xskqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ye0t7")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_xskqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ye0t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wdsqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_nmbxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cb3b0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_g144g")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cadn2"]
+size = Vector2(48, 66)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o12js"]
+radius = 435.1942
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1090660185]
+collision_mask = 2
+script = ExtResource("1_xskqj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=801303796]
+sprite_frames = SubResource("SpriteFrames_mlcfu")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=405909046]
+shape = SubResource("RectangleShape2D_cadn2")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1651212725]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=878096751]
+shape = SubResource("CircleShape2D_o12js")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=243248559]
+offset_left = -20.0
+offset_top = -36.0
+offset_right = 27.0
+offset_bottom = -30.0
+value = 100.0

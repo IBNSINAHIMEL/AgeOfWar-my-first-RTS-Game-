@@ -1,0 +1,134 @@
+[gd_scene format=3 uid="uid://c3frquvku02wm"]
+
+[ext_resource type="Texture2D" uid="uid://c77brmleq2gie" path="res://japanese empire/pikeman/idle/2_character.png" id="1_exjox"]
+[ext_resource type="Texture2D" uid="uid://dlh1bh1skcpgl" path="res://japanese empire/samurai/idle/samurai_idle_4.png" id="2_ui5l3"]
+[ext_resource type="Texture2D" uid="uid://c65lho7ugnnsb" path="res://japanese empire/archer/idle/4_character.png" id="3_wjq4b"]
+
+[node name="Control" type="Control" unique_id=1845951763]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 99.0
+offset_top = -135.0
+offset_right = 502.0
+offset_bottom = 219.0
+
+[node name="Panel" type="Panel" parent="." unique_id=1983295443]
+layout_mode = 0
+offset_right = 411.0
+offset_bottom = 356.0
+
+[node name="PikemanButton" type="Button" parent="." unique_id=1055781646]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 86.0
+offset_right = 100.0
+offset_bottom = 174.0
+icon = ExtResource("1_exjox")
+
+[node name="SamuraiButton" type="Button" parent="." unique_id=151038853]
+layout_mode = 0
+offset_left = 298.0
+offset_top = 85.0
+offset_right = 379.0
+offset_bottom = 173.0
+icon = ExtResource("2_ui5l3")
+
+[node name="ArcherButton" type="Button" parent="." unique_id=367736252]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 87.0
+offset_right = 241.0
+offset_bottom = 175.0
+icon = ExtResource("3_wjq4b")
+
+[node name="TitlePanel" type="Panel" parent="." unique_id=1531386755]
+layout_mode = 0
+offset_right = 409.0
+offset_bottom = 56.0
+
+[node name="Title" type="Label" parent="TitlePanel" unique_id=1980683722]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 11.0
+offset_right = 340.0
+offset_bottom = 46.0
+theme_override_font_sizes/font_size = 25
+text = "🏯 Japanese Barracks 🏯"
+
+[node name="PikemanName" type="Label" parent="." unique_id=510342209]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 60.0
+offset_right = 98.0
+offset_bottom = 83.0
+
+[node name="SamuraiName" type="Label" parent="." unique_id=348250642]
+layout_mode = 0
+offset_left = 294.0
+offset_top = 55.0
+offset_right = 388.0
+offset_bottom = 78.0
+
+[node name="ArcherName" type="Label" parent="." unique_id=254099034]
+layout_mode = 0
+offset_left = 153.0
+offset_top = 58.0
+offset_right = 247.0
+offset_bottom = 81.0
+
+[node name="TrainingProgress" type="ProgressBar" parent="." unique_id=708122849]
+layout_mode = 0
+offset_left = 61.0
+offset_top = 313.0
+offset_right = 353.0
+offset_bottom = 340.0
+
+[node name="SamuraiCostLabel" type="Label" parent="." unique_id=1272993030]
+layout_mode = 0
+offset_left = 285.0
+offset_top = 173.0
+offset_right = 403.0
+offset_bottom = 220.0
+
+[node name="PikemanCostLabel" type="Label" parent="." unique_id=2075870754]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 174.0
+offset_right = 107.0
+offset_bottom = 213.0
+
+[node name="ArcherCostLabel" type="Label" parent="." unique_id=2088870905]
+layout_mode = 0
+offset_left = 137.0
+offset_top = 169.0
+offset_right = 256.0
+offset_bottom = 216.0
+
+[node name="PikemanStatsLabel" type="Label" parent="." unique_id=620448186]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 229.0
+offset_right = 372.0
+offset_bottom = 256.0
+
+[node name="ArcherStatsLabel" type="Label" parent="." unique_id=1191913940]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 283.0
+offset_right = 367.0
+offset_bottom = 310.0
+
+[node name="SamuraiStatsLabel" type="Label" parent="." unique_id=192945677]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 258.0
+offset_right = 368.0
+offset_bottom = 285.0
+
+[node name="CloseButton" type="Button" parent="." unique_id=65132738]
+layout_mode = 0
+offset_left = 368.0
+offset_top = 4.0
+offset_right = 411.0
+offset_bottom = 46.0
+text = "x"

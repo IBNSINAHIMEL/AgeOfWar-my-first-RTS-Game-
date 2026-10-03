@@ -1,0 +1,163 @@
+[gd_scene format=3 uid="uid://ctxae6eqi255p"]
+
+[ext_resource type="Script" uid="uid://bxd8d7022g1tw" path="res://scripts/units/cannon.gd" id="1_5ta12"]
+[ext_resource type="Texture2D" uid="uid://dptuvslbu6uhu" path="res://native soldiers/canon/idle/1_character.png" id="2_6bbtj"]
+[ext_resource type="Texture2D" uid="uid://d2ppl4cn5nnf" path="res://native soldiers/canon/attack left/1_character.png" id="2_ayb4p"]
+[ext_resource type="Texture2D" uid="uid://o54cg1x61tcb" path="res://native soldiers/canon/attack right/1_character.png" id="2_f2u4g"]
+[ext_resource type="Texture2D" uid="uid://3h6lrip6kat0" path="res://native soldiers/canon/idle/2_character.png" id="3_6vg6g"]
+[ext_resource type="Texture2D" uid="uid://bs02ygb8l4cll" path="res://native soldiers/canon/attack right/2_character.png" id="3_7b0qr"]
+[ext_resource type="Texture2D" uid="uid://hqhq42q45dfq" path="res://native soldiers/canon/attack left/2_character.png" id="3_vh1ig"]
+[ext_resource type="Texture2D" uid="uid://cojjw3quvdx0v" path="res://native soldiers/canon/attack left/3_character.png" id="4_0tsvl"]
+[ext_resource type="Texture2D" uid="uid://cb0mun7tm13md" path="res://native soldiers/canon/attack right/3_character.png" id="4_bm6se"]
+[ext_resource type="Texture2D" uid="uid://dlsxotcb5bslu" path="res://native soldiers/canon/idle/3_character.png" id="4_xt1sm"]
+[ext_resource type="Texture2D" uid="uid://k2ql5p5ohpbd" path="res://native soldiers/canon/walk/1_character.png" id="5_ak84e"]
+[ext_resource type="Texture2D" uid="uid://cgs153cywi5b" path="res://native soldiers/canon/attack right/4_character.png" id="5_dht2h"]
+[ext_resource type="Texture2D" uid="uid://8t32blud2tj" path="res://native soldiers/canon/attack left/4_character.png" id="5_jfhqj"]
+[ext_resource type="Texture2D" uid="uid://bkj45pco2w6jc" path="res://native soldiers/canon/attack right/5_character.png" id="6_00vdu"]
+[ext_resource type="Texture2D" uid="uid://ca6qvt3lg0ak8" path="res://native soldiers/canon/walk/2_character.png" id="6_7g8dp"]
+[ext_resource type="Texture2D" uid="uid://bkos62uwwdf7i" path="res://native soldiers/canon/attack left/5_character.png" id="6_wvoic"]
+[ext_resource type="Texture2D" uid="uid://tdxauc1wiy8t" path="res://native soldiers/canon/attack left/6_character.png" id="7_1ptct"]
+[ext_resource type="Texture2D" uid="uid://dhk5u6u5cwtdc" path="res://native soldiers/canon/walk/3_character.png" id="7_f2u4g"]
+[ext_resource type="Texture2D" uid="uid://cxj8apmayse8f" path="res://native soldiers/canon/attack right/6_character.png" id="7_u08mx"]
+[ext_resource type="Texture2D" uid="uid://dt14x1gqmidel" path="res://native soldiers/canon/die/1_character.png" id="14_1c03e"]
+[ext_resource type="Texture2D" uid="uid://jx8eya21ebjp" path="res://native soldiers/canon/die/2_character.png" id="15_b8nsd"]
+[ext_resource type="Texture2D" uid="uid://cc1il7ykeixu8" path="res://native soldiers/canon/die/3_character.png" id="16_vpgdr"]
+[ext_resource type="Texture2D" uid="uid://dqtapb5viobgd" path="res://native soldiers/canon/hurt/1_character.png" id="17_hm0wa"]
+[ext_resource type="Texture2D" uid="uid://dkx0v7i1r2f0n" path="res://native soldiers/canon/hurt/2_character.png" id="18_tlmom"]
+[ext_resource type="Texture2D" uid="uid://nueuj61gdi75" path="res://native soldiers/canon/hurt/3_character.png" id="19_0xh6l"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7b0qr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ayb4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vh1ig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0tsvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jfhqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_wvoic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1ptct")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_f2u4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7b0qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_bm6se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dht2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_00vdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u08mx")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_1c03e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_b8nsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_vpgdr")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_hm0wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tlmom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_0xh6l")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_6bbtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6vg6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xt1sm")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_ak84e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7g8dp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_f2u4g")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 2.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ayb4p"]
+size = Vector2(52, 41)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ayb4p"]
+radius = 848.7151
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1742666476]
+script = ExtResource("1_5ta12")
+attack_range = 400.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2142085358]
+sprite_frames = SubResource("SpriteFrames_7b0qr")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=510884553]
+position = Vector2(0, 5.5)
+shape = SubResource("RectangleShape2D_ayb4p")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1463695976]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=937052215]
+position = Vector2(0, 4.5)
+shape = SubResource("CircleShape2D_ayb4p")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="." unique_id=143894635]
+offset_left = -25.0
+offset_top = -22.0
+offset_right = 26.0
+offset_bottom = -16.0
+value = 100.0

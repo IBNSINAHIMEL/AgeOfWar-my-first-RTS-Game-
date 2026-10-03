@@ -1,0 +1,203 @@
+[gd_scene format=3 uid="uid://cpx06l45iket7"]
+
+[ext_resource type="Script" uid="uid://d3fmumtlywpia" path="res://scenes/units/japanese_knight.gd" id="1_t321y"]
+[ext_resource type="Texture2D" uid="uid://b5hb6p32vx5ek" path="res://japanese empire/knight/idle/1_character.png" id="1_vbl4k"]
+[ext_resource type="Texture2D" uid="uid://byuvri8ik77fy" path="res://japanese empire/knight/attack left/1_character.png" id="2_4ublb"]
+[ext_resource type="Texture2D" uid="uid://v0qrv6mrmog" path="res://japanese empire/knight/idle/2_character.png" id="2_t321y"]
+[ext_resource type="Texture2D" uid="uid://cnfnawc4rqs6" path="res://japanese empire/knight/attack left/2_character.png" id="3_5qx3e"]
+[ext_resource type="Texture2D" uid="uid://dg5o70cijlpjt" path="res://japanese empire/knight/idle/3_character.png" id="3_upma5"]
+[ext_resource type="Texture2D" uid="uid://bk05so1705tpx" path="res://japanese empire/knight/idle/4_character.png" id="4_0i67h"]
+[ext_resource type="Texture2D" uid="uid://ch7mkj8r3gydd" path="res://japanese empire/knight/attack left/3_character.png" id="4_x1vnf"]
+[ext_resource type="Texture2D" uid="uid://vkmca8crp1r4" path="res://japanese empire/knight/attack left/4_character.png" id="5_66dur"]
+[ext_resource type="Texture2D" uid="uid://cy2o33wxanmdd" path="res://japanese empire/knight/walk/1_character.png" id="5_j1pk7"]
+[ext_resource type="Texture2D" uid="uid://68wlyrrm7gdx" path="res://japanese empire/knight/walk/2_character.png" id="6_5rxyy"]
+[ext_resource type="Texture2D" uid="uid://cag5fjye36kbh" path="res://japanese empire/knight/attack left/5_character.png" id="6_max6h"]
+[ext_resource type="Texture2D" uid="uid://4klu2j3x3hir" path="res://japanese empire/knight/attack left/6_character.png" id="7_2imeg"]
+[ext_resource type="Texture2D" uid="uid://cg1n1sa1qrwyb" path="res://japanese empire/knight/walk/3_character.png" id="7_um7fq"]
+[ext_resource type="Texture2D" uid="uid://dj728k6fstx7c" path="res://japanese empire/knight/attack right/1_character.png" id="8_ch3r4"]
+[ext_resource type="Texture2D" uid="uid://b5kity2331vvj" path="res://japanese empire/knight/walk/4_character.png" id="8_sg11i"]
+[ext_resource type="Texture2D" uid="uid://dej1tp2dotkab" path="res://japanese empire/knight/attack right/2_character.png" id="9_1wj05"]
+[ext_resource type="Texture2D" uid="uid://bqdoi1w3stuok" path="res://japanese empire/knight/walk/5_character.png" id="9_q1b2r"]
+[ext_resource type="Texture2D" uid="uid://dloukfl2f3sbq" path="res://japanese empire/knight/walk/6_character.png" id="10_5po0v"]
+[ext_resource type="Texture2D" uid="uid://doxw4pbmpw1bx" path="res://japanese empire/knight/attack right/3_character.png" id="10_gxbuc"]
+[ext_resource type="Texture2D" uid="uid://dowe5q3cgagls" path="res://japanese empire/knight/walk/7_character.png" id="11_2wnhl"]
+[ext_resource type="Texture2D" uid="uid://mr667epwqjnc" path="res://japanese empire/knight/attack right/4_character.png" id="11_tx8v7"]
+[ext_resource type="Texture2D" uid="uid://bysxas5llvgmn" path="res://japanese empire/knight/attack right/5_character.png" id="12_mbn4m"]
+[ext_resource type="Texture2D" uid="uid://bvcq4hq1n4h2j" path="res://japanese empire/knight/walk/8_character.png" id="12_n57qs"]
+[ext_resource type="Texture2D" uid="uid://7u2ogbq1v5qu" path="res://japanese empire/knight/walk/9_character.png" id="13_lfqur"]
+[ext_resource type="Texture2D" uid="uid://dxlp4xvi4n3og" path="res://japanese empire/knight/attack right/6_character.png" id="13_ymt4l"]
+[ext_resource type="Texture2D" uid="uid://c5cymru2b3p3y" path="res://japanese empire/knight/die/1_character.png" id="14_odk3e"]
+[ext_resource type="Texture2D" uid="uid://dq56ojeg45jm1" path="res://japanese empire/knight/walk/10_character.png" id="14_tdmfv"]
+[ext_resource type="Texture2D" uid="uid://cg0px0pege43n" path="res://japanese empire/knight/die/2_character.png" id="15_bi4jk"]
+[ext_resource type="Texture2D" uid="uid://dbsora7t3a8x7" path="res://japanese empire/knight/walk/11_character.png" id="15_horb7"]
+[ext_resource type="Texture2D" uid="uid://erbjm5r2y6lf" path="res://japanese empire/knight/walk/12_character.png" id="16_51cwy"]
+[ext_resource type="Texture2D" uid="uid://dgrxdtor6x3ad" path="res://japanese empire/knight/die/3_character.png" id="16_hp0i2"]
+[ext_resource type="Texture2D" uid="uid://0lhvuh84vt3w" path="res://japanese empire/knight/hurt/1_character.png" id="17_ue0i4"]
+[ext_resource type="Texture2D" uid="uid://3ktadt851jxh" path="res://japanese empire/knight/hurt/2_character.png" id="18_bys4m"]
+[ext_resource type="Texture2D" uid="uid://i7glydmvs145" path="res://japanese empire/knight/hurt/3_character.png" id="19_p4dhl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nqd8t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4ublb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5qx3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_x1vnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_66dur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_max6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2imeg")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_ch3r4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1wj05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gxbuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tx8v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mbn4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ymt4l")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_odk3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bi4jk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_hp0i2")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_ue0i4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bys4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_p4dhl")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vbl4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_t321y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_upma5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0i67h")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_j1pk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5rxyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_um7fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_sg11i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_q1b2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5po0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2wnhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_n57qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_lfqur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tdmfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_horb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_51cwy")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ublb"]
+size = Vector2(51, 58)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_x1vnf"]
+radius = 248.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1971734868]
+position = Vector2(531, 318)
+collision_mask = 2
+script = ExtResource("1_t321y")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1447960170]
+position = Vector2(-1, 3)
+sprite_frames = SubResource("SpriteFrames_nqd8t")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=149309304]
+position = Vector2(-1.5, 4)
+shape = SubResource("RectangleShape2D_4ublb")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1114835566]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=1747769026]
+shape = SubResource("CircleShape2D_x1vnf")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=1376029106]
+offset_left = -26.0
+offset_top = -29.0
+offset_right = 25.0
+offset_bottom = -22.0

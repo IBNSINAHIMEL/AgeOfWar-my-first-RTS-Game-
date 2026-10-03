@@ -1,0 +1,176 @@
+[gd_scene format=3 uid="uid://oqyrujx24m1h"]
+
+[ext_resource type="Script" uid="uid://1l27gvjb4as1" path="res://scenes/units/samurai.gd" id="1_libpo"]
+[ext_resource type="Texture2D" uid="uid://caxs13x4xjwil" path="res://japanese empire/samurai/idle/samurai_idle_1.png" id="2_0w1e4"]
+[ext_resource type="Texture2D" uid="uid://bmouvoxq8sv6t" path="res://japanese empire/samurai/attack_back/samurai_back_attack_1 (1).png" id="2_3660i"]
+[ext_resource type="Texture2D" uid="uid://crpaq3cgpjx0g" path="res://japanese empire/samurai/attack_back/samurai_back_attack_2 (1).png" id="3_54fn2"]
+[ext_resource type="Texture2D" uid="uid://b424652g06vcm" path="res://japanese empire/samurai/idle/samurai_idle_2.png" id="3_trycg"]
+[ext_resource type="Texture2D" uid="uid://i7klj7w07y8w" path="res://japanese empire/samurai/attack_back/samurai_back_attack_3 (1).png" id="4_2btt2"]
+[ext_resource type="Texture2D" uid="uid://dae5d8ds24x4a" path="res://japanese empire/samurai/idle/samurai_idle_3.png" id="4_s5b0l"]
+[ext_resource type="Texture2D" uid="uid://k6c8eyx5bovr" path="res://japanese empire/samurai/attack_back/samurai_back_attack_4 (1).png" id="5_6gtpp"]
+[ext_resource type="Texture2D" uid="uid://dlh1bh1skcpgl" path="res://japanese empire/samurai/idle/samurai_idle_4.png" id="5_7rw72"]
+[ext_resource type="Texture2D" uid="uid://duu1nqvnkkspq" path="res://japanese empire/samurai/attack_back/samurai_back_attack_5 (1).png" id="6_15sg1"]
+[ext_resource type="Texture2D" uid="uid://cqkmthx8w821r" path="res://japanese empire/samurai/walk/samurai_walk_1.png" id="6_pjitw"]
+[ext_resource type="Texture2D" uid="uid://bi75mi3wthydu" path="res://japanese empire/samurai/attack_front/samurai_front_attack_1.png" id="7_l6t6b"]
+[ext_resource type="Texture2D" uid="uid://dvctv6w7hvy2d" path="res://japanese empire/samurai/walk/samurai_walk_2.png" id="7_qt8xn"]
+[ext_resource type="Texture2D" uid="uid://bpfqf51y6i2o6" path="res://japanese empire/samurai/walk/samurai_walk_3.png" id="8_b1bq1"]
+[ext_resource type="Texture2D" uid="uid://jl46rlngwxhs" path="res://japanese empire/samurai/attack_front/samurai_front_attack_2.png" id="8_libpo"]
+[ext_resource type="Texture2D" uid="uid://c5ug5xhv2sk1r" path="res://japanese empire/samurai/attack_front/samurai_front_attack_3.png" id="9_3g7e0"]
+[ext_resource type="Texture2D" uid="uid://wlbbsgmwk7f5" path="res://japanese empire/samurai/walk/samurai_walk_4.png" id="9_ppeyh"]
+[ext_resource type="Texture2D" uid="uid://bcvxp507mdjgv" path="res://japanese empire/samurai/walk/samurai_walk_5.png" id="10_b8s37"]
+[ext_resource type="Texture2D" uid="uid://dov1fdxe83id4" path="res://japanese empire/samurai/attack_front/samurai_front_attack_4.png" id="10_d70q8"]
+[ext_resource type="Texture2D" uid="uid://co6ib53lp0sgh" path="res://japanese empire/samurai/walk/samurai_walk_6.png" id="11_3660i"]
+[ext_resource type="Texture2D" uid="uid://qstcj7w87q1r" path="res://japanese empire/samurai/attack_front/samurai_front_attack_5.png" id="11_bqpy0"]
+[ext_resource type="Texture2D" uid="uid://bxcwhh7sbfrpm" path="res://japanese empire/samurai/death/samurai_death_1 (1).png" id="12_libpo"]
+[ext_resource type="Texture2D" uid="uid://ww031grqt3ph" path="res://japanese empire/samurai/death/samurai_death_2 (1).png" id="13_3g7e0"]
+[ext_resource type="Texture2D" uid="uid://qfp56h5gdcqw" path="res://japanese empire/samurai/death/samurai_death_3 (1).png" id="14_d70q8"]
+[ext_resource type="Texture2D" uid="uid://54pgus60l3dc" path="res://japanese empire/samurai/hurt/samurai_hurt_1 (1).png" id="15_bqpy0"]
+[ext_resource type="Texture2D" uid="uid://dosbuumhxqid2" path="res://japanese empire/samurai/hurt/samurai_hurt_2 (1).png" id="16_yyinb"]
+[ext_resource type="Texture2D" uid="uid://d24eokjh4x43x" path="res://japanese empire/samurai/hurt/samurai_hurt_3 (1).png" id="17_xthum"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_54fn2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_3660i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_54fn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2btt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6gtpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_15sg1")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_l6t6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_libpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3g7e0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_d70q8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_bqpy0")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_libpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3g7e0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d70q8")
+}],
+"loop": true,
+"name": &"die",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_bqpy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_yyinb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_xthum")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0w1e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_trycg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_s5b0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7rw72")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_pjitw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qt8xn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b1bq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ppeyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_b8s37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3660i")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6n5cr"]
+size = Vector2(64, 64)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3g7e0"]
+radius = 334.33667
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=196097085]
+collision_mask = 2
+script = ExtResource("1_libpo")
+
+[node name="Samuraisprite" type="AnimatedSprite2D" parent="." unique_id=1124806725]
+position = Vector2(1, 0)
+sprite_frames = SubResource("SpriteFrames_54fn2")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=481501001]
+position = Vector2(1, -2)
+shape = SubResource("RectangleShape2D_6n5cr")
+disabled = true
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1990761473]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=1473893808]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_3g7e0")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=99611030]
+physics_interpolation_mode = 1
+modulate = Color(0.36563855, 0.78848106, 0.23605669, 1)
+offset_left = -29.0
+offset_top = -44.0
+offset_right = 31.0
+offset_bottom = -36.0
+value = 100.0
+tint_progress = Color(0.2575558, 0.9017326, 0.20933932, 1)

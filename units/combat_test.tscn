@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://08im4ftuk8lo"]
+
+[ext_resource type="PackedScene" uid="uid://oqyrujx24m1h" path="res://scenes/units/samurai.tscn" id="1_80ahh"]
+[ext_resource type="Script" uid="uid://smw6gromt8j0" path="res://scenes/units/combat_test.gd" id="1_u3cmj"]
+[ext_resource type="PackedScene" uid="uid://cgi33dnka74bl" path="res://scenes/units/enemy.tscn" id="2_u3cmj"]
+
+[node name="Node2D" type="Node2D" unique_id=463657150]
+script = ExtResource("1_u3cmj")
+samurai_scene = ExtResource("1_80ahh")
+enemy_scene = ExtResource("2_u3cmj")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1347794379]
+
+[node name="TileMap" type="TileMap" parent="Camera2D" unique_id=1731246717]
+format = 2

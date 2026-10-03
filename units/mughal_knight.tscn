@@ -1,0 +1,170 @@
+[gd_scene format=3 uid="uid://cxsjifmkydho1"]
+
+[ext_resource type="Script" uid="uid://boiupn3w8lo5u" path="res://scripts/units/mughal_knight.gd" id="1_go4ue"]
+[ext_resource type="Texture2D" uid="uid://nf0xnjq8ttei" path="res://mughal empire/knight/attack_front/1_character.png" id="2_dl8p0"]
+[ext_resource type="Texture2D" uid="uid://cgr7qxskhp4pk" path="res://mughal empire/knight/attack_left/1_character.png" id="2_tjcbm"]
+[ext_resource type="Texture2D" uid="uid://bjp033kygbflq" path="res://mughal empire/knight/idle/1_character.png" id="2_yqyjq"]
+[ext_resource type="Texture2D" uid="uid://dqdb8vurwehmu" path="res://mughal empire/knight/attack_front/2_character.png" id="3_4r3tg"]
+[ext_resource type="Texture2D" uid="uid://bqdep5yivjdip" path="res://mughal empire/knight/attack_left/2_character.png" id="3_4v7s4"]
+[ext_resource type="Texture2D" uid="uid://c1u550e7yq3o1" path="res://mughal empire/knight/idle/2_character.png" id="3_uqpud"]
+[ext_resource type="Texture2D" uid="uid://ba57dp2qrii6" path="res://mughal empire/knight/idle/3_character.png" id="4_2uqd4"]
+[ext_resource type="Texture2D" uid="uid://c42mscke8b8ni" path="res://mughal empire/knight/attack_left/3_character.png" id="4_ld38r"]
+[ext_resource type="Texture2D" uid="uid://cvvnyli8wmr81" path="res://mughal empire/knight/attack_front/3_character.png" id="4_w73fy"]
+[ext_resource type="Texture2D" uid="uid://cd7j5l3jsi04t" path="res://mughal empire/knight/idle/4_character.png" id="5_1f6xy"]
+[ext_resource type="Texture2D" uid="uid://d0yjwr8dp0iu3" path="res://mughal empire/knight/attack_front/4_character.png" id="5_ag1t4"]
+[ext_resource type="Texture2D" uid="uid://cuu5swu8q7q8f" path="res://mughal empire/knight/attack_left/NATTZ_br_character.png" id="5_k72wt"]
+[ext_resource type="Texture2D" uid="uid://bitqhwrfp30vd" path="res://mughal empire/knight/walk/1_character.png" id="6_fxdda"]
+[ext_resource type="Texture2D" uid="uid://djmbhmyu5674a" path="res://mughal empire/knight/attack_front/5_character.png" id="6_vq3d7"]
+[ext_resource type="Texture2D" uid="uid://ml3cc7r1bbv3" path="res://mughal empire/knight/walk/2_character.png" id="7_57s1s"]
+[ext_resource type="Texture2D" uid="uid://cgpxnumx18ec0" path="res://mughal empire/knight/attack_front/6_character.png" id="7_xxnwj"]
+[ext_resource type="Texture2D" uid="uid://b3uy3sub2krag" path="res://mughal empire/knight/walk/3_character.png" id="8_r5pxh"]
+[ext_resource type="Texture2D" uid="uid://djmhl4n8qd4kl" path="res://mughal empire/knight/walk/4_character.png" id="9_dqd4t"]
+[ext_resource type="Texture2D" uid="uid://bf6oi527pmh5w" path="res://mughal empire/knight/walk/5_character.png" id="10_xibu1"]
+[ext_resource type="Texture2D" uid="uid://bxyxandboa03b" path="res://mughal empire/knight/walk/6_character.png" id="11_hamtx"]
+[ext_resource type="Texture2D" uid="uid://d2xsfkgxl0jrm" path="res://mughal empire/knight/hurt/1_character.png" id="12_d1ahy"]
+[ext_resource type="Texture2D" uid="uid://bnnm4wlud6fke" path="res://mughal empire/knight/die/1_character.png" id="12_k72wt"]
+[ext_resource type="Texture2D" uid="uid://25grtpoq71v1" path="res://mughal empire/knight/hurt/2_character.png" id="13_as26p"]
+[ext_resource type="Texture2D" uid="uid://da80qwey5yy1e" path="res://mughal empire/knight/die/2_character.png" id="13_d1ahy"]
+[ext_resource type="Texture2D" uid="uid://cpewvevfx0bl1" path="res://mughal empire/knight/die/3_character.png" id="14_as26p"]
+[ext_resource type="Texture2D" uid="uid://dsys86weo43ff" path="res://mughal empire/knight/hurt/3_character.png" id="14_sepcd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8oc54"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tjcbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4v7s4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ld38r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_k72wt")
+}],
+"loop": true,
+"name": &"attack_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_dl8p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4r3tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_w73fy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ag1t4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vq3d7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xxnwj")
+}],
+"loop": true,
+"name": &"attack_front",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_k72wt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_d1ahy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_as26p")
+}],
+"loop": true,
+"name": &"die",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_d1ahy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_as26p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_sepcd")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_yqyjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_uqpud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2uqd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1f6xy")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_fxdda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_57s1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_r5pxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_dqd4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_xibu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hamtx")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k72wt"]
+size = Vector2(51, 61)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d1ahy"]
+radius = 570.15436
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1200489981]
+script = ExtResource("1_go4ue")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1780701941]
+sprite_frames = SubResource("SpriteFrames_8oc54")
+animation = &"walk"
+frame_progress = 0.80035925
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1804258508]
+position = Vector2(-2.5, 1.5)
+shape = SubResource("RectangleShape2D_k72wt")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=350262103]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=543300231]
+shape = SubResource("CircleShape2D_d1ahy")
+
+[node name="HealthBar" type="TextureProgressBar" parent="." unique_id=54487755]
+offset_left = -26.0
+offset_top = -36.0
+offset_right = 22.0
+offset_bottom = -28.0
+value = 100.0
